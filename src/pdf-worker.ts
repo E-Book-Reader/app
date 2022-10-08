@@ -7,6 +7,7 @@ if (process.env.NODE_ENV === "production") {
 }
 */
 
+// @ts-ignore
 import worker from "react-pdf/dist/esm/pdf.worker.entry";
 
 export default worker;
