@@ -1,0 +1,6 @@
+- configure git with the project and add build/run/test commands and push/commit/pull commands
+- a user will have a page where it will be shown all the book he has published in public with all the articles he has wrote
+
+- create wrappers to make routes require authentification
+- remove multiple contexts wrappers and use UseContext more
+- add instantiation functions for the contexts and starts all of them in the main.tsx and wait for them to finish before starting the app
