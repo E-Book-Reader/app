@@ -153,7 +153,11 @@ const Filter = ViewContextWrapper(({ viewContext }) => {
             </div>
           </DropDownMenu>
         </div>
-        <RadioButtons selected={display} setSelected={handleDisplayChange}>
+        <RadioButtons
+          style="rows"
+          selected={display}
+          setSelected={handleDisplayChange}
+        >
           <Squares2X2Icon className="cursor-pointer h-5 w-5 fill-inherit" />
           <ListBulletIcon className="cursor-pointer h-5 w-5 fill-inherit" />
         </RadioButtons>

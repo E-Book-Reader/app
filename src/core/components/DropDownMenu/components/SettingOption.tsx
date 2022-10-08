@@ -11,7 +11,7 @@ const SettingOption = ({
   return (
     <div
       className="whitespace-nowrap text-white font-light text-xs h-6 px-4 flex items-center justify-between gap-2 cursor-pointer hover:bg-sky-600"
-      onClick={onInteract.bind(null, id)}
+      onClick={() => onInteract.bind(null, id)}
     >
       {value}
       {setting ? (
